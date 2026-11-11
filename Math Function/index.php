@@ -1,0 +1,33 @@
+<?php
+    echo "Math Function in PHP";
+    echo "<br>";
+    echo "Square root of 16 is: " . sqrt(16);
+    echo "<br>";
+    echo "5 raised to the power of 3 is: " . pow(5, 3);
+    echo "<br>";
+    echo "The absolute value of -10 is: " . abs(-10);
+    echo "<br>";
+    echo "The ceiling of 4.3 is: " . ceil(4.3);
+    echo "<br>";
+    echo "The floor of 4.3 is: " . floor(4.3);
+    echo "<br>";
+    echo "The maximum value between 10 and 20 is: " . max(10, 20);
+    echo "<br>";
+    echo "The minimum value between 10 and 20 is: " . min(10, 20);
+    echo "<br>";
+    echo "The value of pi is: " . pi();
+    echo "<br>";
+    echo "The random number between 1 and 100 is: " . rand(1, 100);
+    echo "<br>";
+    echo "The sine of 30 degrees is: " . sin(deg2rad(30));
+    echo "<br>";
+    echo "The cosine of 60 degrees is: " . cos(deg2rad(60));
+    echo "<br>";
+    echo "The tangent of 45 degrees is: " . tan(deg2rad(45));
+    echo "<br>";
+    echo "The logarithm of 100 is: " . log(100);
+    echo "<br>";
+    echo "The exponential of 2 is: " . exp(2);
+    echo "<br>";
+    echo "The rounded value of 5.6 is: " . round(5.6);
+?>
